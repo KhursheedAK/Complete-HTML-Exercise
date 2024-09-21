@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>My Links</h1>
+    <ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="AdvanceForms.html">Advance Forms</a></li>
+    </ul>
+    <form action="/login">
+      <div>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          placeholder="enter username"
+          required
+        />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="enter email"
+          name="email"
+          required
+        />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="enter password"
+          name="password"
+          required
+        />
+      </div>
+      <button type="submit">Login</button>
+    </form>
+  </body>
+</html>

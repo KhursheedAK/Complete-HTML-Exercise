@@ -1,1 +1,1 @@
-Compelte HTML Tutorial Exercises for Practice
+Complete HTML Tutorial Exercises for Practice
